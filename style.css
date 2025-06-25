@@ -117,7 +117,7 @@
   overflow: hidden;
   border-radius: 25px;
   box-shadow: 0 0 50px rgb(190, 116, 129), 0 0 50px rgb(190, 116, 129) inset;
-  transition: all;
+  transition: all 0.5s;
 }
 
 .education img {
@@ -132,7 +132,7 @@
   overflow: hidden;
   border-radius: 25px;
   box-shadow: 0 0 50px rgb(190, 116, 129), 0 0 50px rgb(190, 116, 129) inset;
-  transition: all;
+  transition: all 0.5s;
 }
 
 .projects img {
@@ -147,7 +147,7 @@
   overflow: hidden;
   border-radius: 25px;
   box-shadow: 0 0 50px rgb(190, 116, 129), 0 0 50px rgb(190, 116, 129) inset;
-  transition: all;
+  transition: all 0.5s;
 }
 
 .questionare img {
