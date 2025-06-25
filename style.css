@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  background-color: beige;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.intro-box {
+  background-color: rgb(190, 116, 129);
+  height: 700px;
+  width: 600px;
+  animation: introanimation;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1000;
+  color: beige;
+
+  box-shadow: 0 0 50px rgb(190, 116, 129), 0 0 50px rgb(190, 116, 129) inset;
+}
+.text {
+  color: transparent;
+  font-size: 200px;
+  text-align: center;
+  animation: textintro;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+  z-index: 1;
+  background-color: rgb(190, 116, 129);
+}
+
+@keyframes introanimation {
+  from {
+    width: 500px;
+  }
+  to {
+    width: 1530px;
+  }
+}
+
+@keyframes textintro {
+  from {
+    color: transparent;
+    text-shadow: none;
+  }
+  to {
+    color: beige;
+    text-shadow: 0 0 5px white, 0 0 5px white;
+  }
+}
+
+.box1 {
+  background-color: transparent;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.text1 {
+  background-color: transparent;
+
+  font-size: 100px;
+  color: transparent;
+  animation: welctext;
+
+  animation-timing-function: ease;
+  animation-duration: 1s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes welctext {
+  from {
+    color: transparent;
+    text-shadow: none;
+  }
+  to {
+    color: rgb(190, 116, 129);
+    text-shadow: 0 0 5px rgb(190, 116, 129), 0 0 5px rgb(190, 116, 129);
+  }
+}
+.box2 {
+  background-color: transparent;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+
+.text2 {
+  color: rgb(190, 116, 129);
+  text-shadow: 0 0 1px rgb(190, 116, 129), 0 0 1px rgb(190, 116, 129);
+  font-size: 20px;
+  text-align: center;
+}
+
+.box3 {
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.education {
+  height: 300px;
+  width: 300px;
+
+  overflow: hidden;
+  border-radius: 25px;
+  box-shadow: 0 0 50px rgb(190, 116, 129), 0 0 50px rgb(190, 116, 129) inset;
+  transition: all;
+}
+
+.education img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.projects {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 25px;
+  box-shadow: 0 0 50px rgb(190, 116, 129), 0 0 50px rgb(190, 116, 129) inset;
+  transition: all;
+}
+
+.projects img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.questionare {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 25px;
+  box-shadow: 0 0 50px rgb(190, 116, 129), 0 0 50px rgb(190, 116, 129) inset;
+  transition: all;
+}
+
+.questionare img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes imagesize {
+  from {
+    height: 300px;
+    width: 300px;
+  }
+  to {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+.education:hover {
+  height: 315px;
+  width: 315px;
+}
+
+.projects:hover {
+  height: 315px;
+  width: 315px;
+}
+
+.questionare:hover {
+  height: 315px;
+  width: 315px;
+}
+
+.box4 {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
+  height: 100px;
+  margin-top: 40px;
+}
+
+.box5 {
+  background-color: transparent;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer {
+  padding-top: 20px;
+  height: 500px;
+  background-color: beige;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 2px solid rgb(132, 45, 61);
+  border-radius: 50px;
+  box-shadow: 0 0 20px rgb(132, 45, 61), 0 0 20px rgb(132, 45, 61) inset;
+}
+
+.a {
+  background-color: transparent;
+}
+
+.text3 {
+  color: rgb(132, 45, 61);
+  background-color: beige;
+  font-size: 30px;
+}
+
+.text4 {
+  text-align: center;
+  background-color: transparent;
+  font-size: 30px;
+  color: rgb(132, 45, 61);
+}

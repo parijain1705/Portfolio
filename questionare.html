@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questionare</title>
+    <link rel="stylesheet" href="stylee.css" />
+  </head>
+  <body>
+    <div class="whole">
+      <h1>Questionare</h1>
+      <p class="text1">
+        Please fill the following form for asking me question.
+      </p>
+      <br />
+
+      <form action="/pari.php">
+        <div class="whole">
+          <p class="myclass">Your Name</p>
+          <br />
+          <input type="text" , placeholder="Enter Name" /><br />
+        </div>
+        <br /><br />
+        <div class="whole">
+          <p class="myclass">Semester</p>
+          <br /><br />
+          <label for="101">
+            <input type="radio" value="Semester 1" name="semester" id="101" />
+            <p class="a">Semester 1</p>
+            <br />
+          </label>
+          <label for="102">
+            <input type="radio" value="Semester 2" name="semester" id="102" />
+            <p class="a">Semester 2</p>
+            <br />
+          </label>
+          <label for="103">
+            <input type="radio" value="Semester 3" name="semester" id="103" />
+            <p class="a">Semester 3</p>
+            <br />
+          </label>
+          <label for="104">
+            <input type="radio" value="Semester 4" name="semester" id="104" />
+            <p class="a">Semester 4</p>
+            <br />
+          </label>
+          <label for="105">
+            <input type="radio" value="Semester 5" name="semester" id="105" />
+            <p class="a">Semester 5</p>
+            <br />
+          </label>
+          <label for="106">
+            <input type="radio" value="Semester 6" name="semester" id="106" />
+            <p class="a">Semester 6</p>
+            <br />
+          </label>
+          <label for="107">
+            <input type="radio" value="Semester 7" name="semester" id="107" />
+            <p class="a">Semester 7</p>
+            <br />
+          </label>
+          <label for="108">
+            <input type="radio" value="Semester 8" name="semester" id="108" />
+            <p class="a">Semester 8</p></label
+          ><br />
+        </div>
+        <br /><br />
+        <div class="whole">
+          <p class="myclass">What are the interest critarias about me</p>
+          <br /><br />
+          <label for="id1">
+            <input type="checkbox" value="personal" name="reason" id="id1" />
+            <p class="a">Personal</p>
+          </label>
+          <label for="id2">
+            <input
+              type="checkbox"
+              value="professional"
+              name="reason"
+              id="id2"
+            />
+            <p class="a">Professional</p> </label
+          ><br />
+        </div>
+        <br /><br />
+        <div class="whole">
+          <p class="myclass">Select your branch</p>
+          <br /><br />
+          <select name="branch">
+            <option value="Select">Select</option>
+            <option value="CS">CS</option>
+            <option value="AI">AI</option>
+            <option value="DS">DS</option>
+            <option value="IT">IT</option>
+            <option value="EC">EC</option>
+            <option value="EE">EE</option>
+            <option value="CE">CE</option>
+            <option value="ME">ME</option></select
+          ><br />
+        </div>
+        <br /><br />
+        <div class="whole">
+          <p class="myclass">Ask your question</p>
+          <br /><br />
+          <textarea
+            name="Question"
+            id="200"
+            placeholder="Please ask your Question"
+            rows="10"
+            cols="50"
+          ></textarea
+          ><br />
+        </div>
+        <br /><br /><br />
+        <div class="final">
+          <input type="submit" value="submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

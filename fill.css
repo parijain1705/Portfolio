@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  height: 50px;
+  width: 200px;
+  border-radius: 20%;
+  border: 2px solid black;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+div:hover {
+  width: 210px;
+  height: 55px;
+}
+
+div:active {
+  width: 190px;
+  height: 45px;
+}
